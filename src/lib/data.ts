@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../public/corpcomment.png";
-import rmtdevImg from "../public/rmtdev.png";
-import wordanalyticsImg from "../public/wordanalytics.png";
+import corpcommentImg from "../public/capital8.webp";
+import rmtdevImg from "../public/consultorioMedrano.webp";
+import wordanalyticsImg from "../public/ecommerceCanna.webp";
 
 export const links = [
   {
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Crypto Exchange",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a front-end developer on this startup project for 3 months. Users can give public feedback.",
+    tags: ["Pug.js", "Node.js", "MongoDB", "SCSS"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Doctor's office!",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Frontend development for medical services and business logic. I was the full-stack developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Fast Ecommerce!",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Fullstack app developed with Tailwind CSS and Styled Components, using React and Next.js framework, with MongoDB as the database.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
