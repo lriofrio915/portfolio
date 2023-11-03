@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import useSectionInView from "../lib/hooks";
 import { useActiveSectionContext } from "../context/active-section-context";
-import IconPic from "../public/luisRiofrioIcon.jpg";
+import IconPic from "@/public/luisRiofrioIcon.jpg";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
