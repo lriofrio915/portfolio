@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Cannabis Medicinal Ecommerce",
     description:
       "Frontend optimization and backend creation. I worked using agile methodologies. May - Aug 2023.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaReact),
     date: "2023",
   },
   {
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Capital 8 - Crypto Exchange",
     description:
       "I worked as a frontend developer using github to communicate with the dev team. Jan - Feb 2022",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2022",
   },
   {
@@ -63,7 +63,7 @@ export const experiencesData = [
     location: "Liberty Trading Academy - Online",
     description:
       "Train people to be able to operate on investment and speculation assets in the international financial market. Aug 2020 - Present ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2020",
   },
   {
@@ -71,7 +71,7 @@ export const experiencesData = [
     location: "Guillermo Kadle School - Ecuador",
     description:
       "Teach classes in chemistry, physics and also mathematics. Participation in interdisciplinary projects. Aug 2016 - Present ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2016",
   },
 ] as const;
