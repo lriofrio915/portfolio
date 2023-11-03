@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "../public/capital8.webp";
 import rmtdevImg from "../public/consultorioMedrano.webp";
 import wordanalyticsImg from "../public/ecommerceCanna.webp";
+import ecommerceAdminImg from "../public/ecommerceAdmin.webp";
 
 export const links = [
   {
@@ -83,6 +84,7 @@ export const projectsData = [
       "I worked as a front-end developer on this startup project for 3 months. Users can give public feedback.",
     tags: ["Pug.js", "Node.js", "MongoDB", "SCSS"],
     imageUrl: corpcommentImg,
+    gitHubUrl: "https://github.com/lriofrio915/capital-8",
   },
   {
     title: "Doctor's office!",
@@ -90,6 +92,7 @@ export const projectsData = [
       "Frontend development for medical services and business logic. I was the full-stack developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: rmtdevImg,
+    gitHubUrl: "https://github.com/lriofrio915/consultorio-medrano",
   },
   {
     title: "Fast Ecommerce!",
@@ -97,6 +100,15 @@ export const projectsData = [
       "Fullstack app developed with Tailwind CSS and Styled Components, using React and Next.js framework, with MongoDB as the database.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: wordanalyticsImg,
+    gitHubUrl: "https://github.com/lriofrio915/vaperHouse-front",
+  },
+  {
+    title: "CMS for Admins",
+    description:
+      "Multi-product ecommerce for a retail store. I used styled components in this project.",
+    tags: ["JavaScript", "Next.js", "MongoDB", "React.js"],
+    imageUrl: ecommerceAdminImg,
+    gitHubUrl: "https://github.com/lriofrio915/vaperHouse-admin",
   },
 ] as const;
 
