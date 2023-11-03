@@ -62,8 +62,8 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I'm Luis.</span> I'm a{" "}
         <span className="font-bold">full-stack developer.</span> I enjoy
-        building <span className="italic">sites & apps for humans</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building <span className="italic">sites & apps for humans</span>. My
+        focus is <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
       <motion.div
@@ -87,7 +87,7 @@ const Intro = () => {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="src/public/CV.pdf"
+          href="../public/CV.pdf"
           download
         >
           Download CV{" "}
