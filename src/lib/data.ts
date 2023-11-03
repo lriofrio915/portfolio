@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Cannabis Medicinal Ecommerce",
     description:
-      "Frontend optimization and backend creation. I worked using agile methodologies.",
+      "Frontend optimization and backend creation. I worked using agile methodologies. May - Aug 2023.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Capital 8 - Crypto Exchange",
     description:
-      "I worked as a frontend developer using github to communicate with the team.",
+      "I worked as a frontend developer using github to communicate with the dev team. Jan - Feb 2022",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
@@ -54,9 +54,25 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Medrano Medical Office",
     description:
-      "In this project I worked as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB.",
+      "In this project I worked as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. Mar - Jul 2021",
     icon: React.createElement(FaReact),
     date: "2021",
+  },
+  {
+    title: "Financial Markets Trainer",
+    location: "Liberty Trading Academy - Online",
+    description:
+      "Train people to be able to operate on investment and speculation assets in the international financial market. Aug 2020 - Present ",
+    icon: React.createElement(FaReact),
+    date: "2020",
+  },
+  {
+    title: "High School Teacher",
+    location: "Guillermo Kadle School - Ecuador",
+    description:
+      "Teach classes in chemistry, physics and also mathematics. Participation in interdisciplinary projects. Aug 2016 - Present ",
+    icon: React.createElement(FaReact),
+    date: "2016",
   },
 ] as const;
 
