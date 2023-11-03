@@ -4,10 +4,17 @@ import Image from "next/image";
 import { projectsData } from "../lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number];
 
-const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
+const Project = ({
+  title,
+  description,
+  tags,
+  imageUrl,
+  gitHubUrl,
+}: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -42,11 +49,12 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
             ))}
           </ul>
         </div>
-        <Image
-          src={imageUrl}
-          alt="Project I worked on"
-          quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+        <Link href={gitHubUrl} passHref target="_blank">
+          <Image
+            src={imageUrl}
+            alt="Project I worked on"
+            quality={95}
+            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
           transition 
           group-hover:scale-[1.04]
           group-hover:-translate-x-3
@@ -58,7 +66,8 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
           group-even:group-hover:rotate-2
   
           group-even:right-[initial] group-even:-left-40"
-        />
+          />
+        </Link>
       </section>
     </motion.div>
   );
