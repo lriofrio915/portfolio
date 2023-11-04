@@ -36,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
+    title: "Freelance Developer",
     location: "Cannabis Medicinal Ecommerce",
     description:
       "Frontend optimization and backend creation. I worked using agile methodologies. May - Aug 2023.",
@@ -44,7 +44,7 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Front-End Developer",
+    title: "Freelance Developer",
     location: "Capital 8 - Crypto Exchange",
     description:
       "I worked as a frontend developer using github to communicate with the dev team. Jan - Feb 2022",
@@ -52,10 +52,10 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Freelance Developer",
     location: "Medrano Medical Office",
     description:
-      "In this project I worked as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. Mar - Jul 2021",
+      "In this project I worked as a Full Stack. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. Mar - Jul 2021",
     icon: React.createElement(FaReact),
     date: "2021",
   },
