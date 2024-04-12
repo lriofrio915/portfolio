@@ -2,11 +2,11 @@
 
 import React from "react";
 import SectionHeading from "./SectionHeading";
-import { motion } from "framer-motion";
 import useSectionInView from "../lib/hooks";
 import SubmitBtn from "./SubmitBtn";
 import toast from "react-hot-toast";
 import { sendEmail } from "../actions/sendEmail";
+import { motion } from "framer-motion"
 
 const Contact = () => {
   const { ref } = useSectionInView("Contact");

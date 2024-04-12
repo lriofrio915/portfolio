@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/capital8.webp";
 import rmtdevImg from "@/public/consultorioMedrano.webp";
 import wordanalyticsImg from "@/public/ecommerceCanna.webp";
 import ecommerceAdminImg from "@/public/ecommerceAdmin.webp";
+import gavilanesImg from "@/public/consultoriogavilanes.jpg";
 
 export const links = [
   {
@@ -35,6 +36,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Freelance Developer",
+    location: "Dr. Patricio Gavilanes",
+    description:
+      "Frontend medical website developing. I worked using git branches. Jan - Mar 2024.",
+    icon: React.createElement(FaReact),
+    date: "2024",
+  },
   {
     title: "Freelance Developer",
     location: "Cannabis Medicinal Ecommerce",
@@ -78,6 +87,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Gavilanes Medical Office",
+    description:
+      "Full Website to medical doctor. I used tailwind CSS in this project. WhatsApp & Email Function.",
+    tags: ["React.js", "Next.js", "Tailwind", "Resender"],
+    imageUrl: gavilanesImg,
+    gitHubUrl: "https://github.com/lriofrio915/doctor-gavilanes",
+  },
   {
     title: "Crypto Exchange",
     description:
